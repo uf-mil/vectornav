@@ -7,6 +7,7 @@
 	<include file="$(find vectornav)/launch/vn100_imu.launch">
 		<arg name="target_frame" value="$(arg target_frame)"/>
 		<arg name="frame_id" value="$(arg frame_id)"/>
+		<arg name="serial_port" value="/dev/serial/by-id/usb-FTDI_USB-RS232_Cable_AV0K7MTC-if00-port0"/>
 	</include>
 
 	<node pkg="tf" type="static_transform_publisher" name="imu_broadcaster" args="1.0 1.0 1.0 0 0 0 $(arg target_frame) $(arg frame_id) 100" />
