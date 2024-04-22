@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <launch>
-	<arg name="target_frame" default="base_link"/>
+	<arg name="target_frame" default="imu"/>
 	<arg name="frame_id" default="imu"/>
 	<arg name="serial_port" default="/dev/serial/by-id/usb-FTDI_USB-RS232_Cable_AV0K7MTC-if00-port0"/>
 

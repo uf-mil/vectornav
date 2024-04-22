@@ -267,6 +267,7 @@ int main(int argc, char * argv[])
     ROS_WARN("With the test IMU 128000 did not work, all others worked fine.");
   }
   // Query the sensor's model number.
+  vs.tare();
   string mn = vs.readModelNumber();
   string fv = vs.readFirmwareVersion();
   uint32_t hv = vs.readHardwareRevision();
