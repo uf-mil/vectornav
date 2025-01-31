@@ -1,7 +1,9 @@
 vectornav:
   ros__parameters:
-    port: "/dev/ttyUSB0"
-    baud: 115200
+    # port: "/dev/ttyUSB0"
+    port: "/dev/serial/by-id/usb-FTDI_USB-RS232_Cable_AV0K7MTC-if00-port0"
+    # baud: 115200
+    baud: 921600
     reconnect_ms: 500
     # Reference vnproglib-1.2.0.0 headers for enum definitions
     # Async Output Type (ASCII)
