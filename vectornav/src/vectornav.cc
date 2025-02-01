@@ -572,6 +572,8 @@ bool Vectornav::connect(const std::string port, const int baud)
   RCLCPP_INFO(get_logger(), "Serial Number : %d", sn);
   RCLCPP_INFO(get_logger(), "User Tag : \"%s\"", ut.c_str());
 
+  vs_->tare();
+
   return configure_sensor();
 }
 
