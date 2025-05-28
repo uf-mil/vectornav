@@ -68,12 +68,12 @@ vn_sensor_msgs:
     orientation_covariance: [0.01,  0.0,   0.0,
                             0.0,   0.01,  0.0,
                             0.0,   0.0,   0.01]
-    angular_velocity_covariance: [0.01,  0.0,   0.0,
-                         0.0,   0.01,  0.0,
-                         0.0,   0.0,   0.01]
-    linear_acceleration_covariance: [0.01,  0.0,   0.0,
-                         0.0,   0.01,  0.0,
-                         0.0,   0.0,   0.01]
+    angular_velocity_covariance: [0.000001,  0.0,   0.0,
+                         0.0,   0.000003,  0.0,
+                         0.0,   0.0,   0.000001]
+    linear_acceleration_covariance: [0.000170,  0.0,   0.0,
+                         0.0,   0.000165,  0.0,
+                         0.0,   0.0,   0.000371]
     magnetic_covariance: [0.01,  0.0,   0.0,
                          0.0,   0.01,  0.0,
                          0.0,   0.0,   0.01]
